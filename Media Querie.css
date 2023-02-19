@@ -1,0 +1,91 @@
+@media (min-width:900px) and (max-width:1200px){
+    #Third-header #TH-col-1 nav ul li a{padding: 15px 10px;}
+}
+
+
+@media (min-width: 767px) and (max-width: 900px){
+    #Third-header #TH-col-1 nav ul li a{padding: 15px 8px;}
+
+    #section .col-md-8 h1{font-size: 60px;}
+    #section .col-md-8 h1 span{font-size:70px;}
+
+    #Box-5 .col-md-7{padding: 0px;}
+    #Box-5 .col-md-7 h3{font-size: 19px;}
+    #Box-5 .col-md-7 p{font-size: 16px; line-height: normal;}
+
+    #shirt-2-box #text-box h3{font-size: 20px;}
+    #shirt-2-box #text-box p{font-size: 15px; line-height: 20px;}
+    #shirt-2-box #text-box button{padding: 8px 25px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    #First-header{display: none;}
+    #Second-header #display-1{display: none;}
+    
+    #Third-header #TH-col-1 #mynavbar{margin-right: 200px;}
+    #Third-header #TH-col-1 #mynavbar ul li a{padding: 15px;}
+
+    #section .col-md-8 h1{font-size: 60px;}
+    #section .col-md-8 h1 span{font-size:70px;}
+
+    #Box-3 h1{font-size: 30px;}
+
+    #Box-3 #products-box .main-box{
+        width: 230px;
+        height: 300px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    #Box-5 h1{font-size:30px ;}
+    #Box-5 .col-md-7 h3{font-size: 18px;}
+    #Box-5 .col-md-7 p{font-size: 16px; line-height: normal;}
+
+    #yellow-box h2{font-size: 25px;}
+}
+
+
+@media (max-width: 576px){
+    #First-header{display: none;}
+    #Second-header #display-1{display: none;}
+
+    #Third-header #TH-col-1 #mynavbar ul li a{padding: 10px;}
+   
+    #Third-header #TH-col-1 #mynavbar{
+        margin: 10px 50px;
+        animation-name:navbar-menu;
+        animation-duration:1s;
+        animation-iteration-count: 1;
+    }
+    @keyframes navbar-menu{
+        0%{background-color: #1836617f; transform: rotate(280deg);}
+        25%{background-color: #183661a1;}
+        75%{background-color: #183661d2;}
+        100%{background-color: #183661;}
+    }
+    
+
+
+    #TH-col-1 button{display: none;}
+
+    #section .col-md-8 h1{font-size: 50px;}
+    #section .col-md-8 h1 span{font-size:60px;}
+
+    #Box-3 h1{font-size: 30px;}
+
+    #Box-3 #products-box .main-box{
+        width: 250px;
+        height: 300px;
+        text-align: justify;
+        margin-bottom: 20px;
+        margin:10px auto;
+    }
+
+    #Box-5 h1{font-size:35px ;}
+    #Box-5 .col-md-7 h3{font-size: 18px;}
+    #Box-5 .col-md-7 p{font-size: 16px; line-height: normal;}
+
+    #yellow-box h2{font-size: 25px;}
+
+}
+
